@@ -1,0 +1,79 @@
+body {
+    font-family: "Isaac";
+}
+.App {
+    min-height: 100vh;
+}
+// Text styles classes
+.text-upper {
+    text-transform: uppercase !important;
+}
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-white {
+    color: white;
+}
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+.list__title {
+    color: red;
+    font-size: 40px;
+}
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+.nav__title {
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+.item_bloc {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+.item__sprite {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; 
+    max-width: 100%;
+    image-rendering: pixelated;
+    margin: auto;
+    width: 100%;
+}
+.item_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 objets par ligne */
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+}
+.item__card {
+    width: 70%;
+    margin: auto;
+    background-color: pink;
+    border: solid 1px black;
+    padding: 2%;
+}
+.card__title {
+    text-align: center;
+}
+.card__pickup {
+    text-align: center;
+}
+.item__pic {
+    margin: auto;
+    width: 70%;
+    image-rendering: pixelated;
+}
