@@ -4667,6 +4667,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4682,6 +4685,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4697,6 +4703,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4712,6 +4721,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4727,6 +4739,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4742,6 +4757,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4757,6 +4775,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4772,6 +4793,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4787,6 +4811,10 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac",
+            "allstatsup"
         ]
     },
     {
@@ -4802,6 +4830,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4817,6 +4848,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
@@ -4957,6 +4991,9 @@
         "item_charge": null,
         "pool": [
             "Item Room"
+        ],
+        "tag": [
+            "zodiac"
         ]
     },
     {
