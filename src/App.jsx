@@ -1,18 +1,37 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
+import Search from './components/Search';
 import ItemList from './components/ItemList';
+import ItemCard from './components/ItemCard';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedItem, setSelectedItem] = useState(null);
+
 
   const handleSearch = (query) => {
     setSearchQuery(query);
+    setSelectedItem(null); // Réinitialise selectedItem lors d'une nouvelle recherche
+  };
+
+  const handleItemClick = (item) => {
+    setSelectedItem(item);
+  };
+
+  const handleBack = () => {
+    setSearchQuery(''); 
+    setSelectedItem(null);
   };
 
   return (
     <>
-      <Navbar onSearch={handleSearch} /> {/* Passer la fonction handleSearch au composant Navbar */}
-      <ItemList searchQuery={searchQuery} />
+      {selectedItem ? (
+        <ItemCard item={selectedItem} onBack={handleBack} />
+      ) : (
+        <>
+          <Search onSearch={handleSearch} />
+          <ItemList searchQuery={searchQuery} onItemClick={handleItemClick} />
+        </>
+      )}
     </>
   );
 }

@@ -15,6 +15,7 @@ function Search({ onSearch }) {
       value={searchQuery}
       onChange={handleSearchChange}
       placeholder="Rechercher un item..."
+      className="search_bar"
     />
   );
 }

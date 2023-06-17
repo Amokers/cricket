@@ -801,7 +801,7 @@
         "id": "52",
         "extension": "base",
         "title": "Dr. Fetus",
-        "pickup": "ItemID: 52",
+        "pickup": "\"???\"",
         "effect": "Instead of tears, Isaac now shoots bombs from his eyes, which explode dealing damage to anything nearby.\nBomb damage = damage * 5 + 30 (Pre-afterbirth this was damage * 3).\nTears Down (Tear delay * 2.5).\nBombs will also synergize with other bomb items and tear modifiers, including Sad Bombs, Mr. Mega and many more.",
         "unlock": "Unlock this item by beating Mom's Heart 9 times.",
         "type": [
@@ -1619,7 +1619,7 @@
         "id": "105",
         "extension": "base",
         "title": "The D6",
-        "pickup": "ItemID: 105",
+        "pickup": "\"reroll your destiny\"",
         "effect": "When used, replaces all pedestal items in the current room with another random item. Re-rolled items pick from the current room's item pool.\nIsaac starts with this item after it is unlocked.",
         "unlock": "Unlock this item by defeating the Isaac boss with Blue Baby.",
         "type": [
@@ -1762,7 +1762,7 @@
         "id": "114",
         "extension": "base",
         "title": "Mom's Knife",
-        "pickup": "ItemID: 114",
+        "pickup": "\"stab stab stab\"",
         "effect": "Tears are replaced with a knife which can be charged and thrown in a boomerang style action.\nThe knife can also do damage without being thrown as a close range melee weapon.\nWhen used as a melee weapon, Mom's Knife deals your tear damage * 2 per tick.\nAt the furthest point from Isaac the knife deals your tear damage * 6.\nCounts as 1 of 3 mom items needed towards the Mom transformation.",
         "unlock": "Unlock this item by beating Satan with Isaac.",
         "type": [
@@ -1826,7 +1826,7 @@
         "id": "118",
         "extension": "base",
         "title": "Brimstone",
-        "pickup": "ItemID: 118",
+        "pickup": "\"blood laser barrage\"",
         "effect": "Tears are replaced with the ability to charge and fire a powerful laser that travels in a straight line across the room, dealing a lot of damage (damage * 13) to any enemies it comes into contact with.\nDoes not directly affect your Damage stat but hits enemies 13 times per charge, spawning Guppy flies with every hit.\nSynergizes very well with a lot of items including Tammy's Head, Tiny Planet, Inner Eye (Triple Shot), Mutant Spider (Quad Shot) and many others.\nAn item only found in the devil room pool (Note: The Fallen boss pulls items from the Devil Room Pool)\nCounts as 1 of 3 evil items needed towards the Leviathan transformation.",
         "unlock": null,
         "type": [
@@ -2383,7 +2383,7 @@
         "id": "153",
         "extension": "base",
         "title": "Mutant Spider",
-        "pickup": "ItemID: 153",
+        "pickup": "\"Quad Shot\"",
         "effect": "Tears now shoot 4 at a time (Quad Shot)\nTears Down significantly (Tear delay * 2.1 + 3).\nSynergizes well with a lot of tear effects - e.g. with Brimstone you get 4 lasers.\nCounts as 1 of 3 spider items needed towards the Spider Baby transformation.",
         "unlock": null,
         "type": [
@@ -2615,7 +2615,7 @@
         "id": "168",
         "extension": "base",
         "title": "Epic Fetus",
-        "pickup": "ItemID: 168",
+        "pickup": "\"Double shot buddy\"",
         "effect": "Tears now become missiles which deal huge damage to anything nearby.\nMissiles damage = damage * 20.\nThis item places a controllable red target on the ground which will cause a missile to fall from the sky and hit it after a short period of time.",
         "unlock": "Unlock this item by beating Challenge #19 (The Family Man).",
         "type": [
@@ -2631,7 +2631,7 @@
         "id": "169",
         "extension": "base",
         "title": "Polyphemus",
-        "pickup": "ItemID: 169",
+        "pickup": "\"Mega Tears\"",
         "effect": "High Damage Up - (damage + 4) * 2.\nTears Down significantly (Tear delay * 2.1 + 3).\nIf a tear kills an enemy, it continues to travel forward with the leftover damage.",
         "unlock": null,
         "type": [
@@ -2837,7 +2837,7 @@
         "id": "182",
         "extension": "base",
         "title": "Sacred Heart",
-        "pickup": "ItemID: 182",
+        "pickup": "\"homing shots + dmg up\"",
         "effect": "Tears are now white, do a lot more damage and move slower across the screen with a homing effect.\nHealth Up.\nDamage Up (damage * 2.3 + 1).\n-0.4 Tears Down.\n-0.25 Shot Speed Down.\n+4.125 Range Up.\n+0.75 Tear Height.\nFull red heart heal.",
         "unlock": null,
         "type": [
@@ -3483,7 +3483,7 @@
         "id": "223",
         "extension": "base",
         "title": "Pyromaniac",
-        "pickup": "ItemID: 223",
+        "pickup": "\"it hurts so good +5 bombs\"",
         "effect": "+5 Bombs\nAll explosions now heal Isaac for 1 heart instead of hurting him.\nIsaac will also be immune to other sources such as Mom's leg stomp, Satan's leg stomp.",
         "unlock": null,
         "type": [
@@ -4409,7 +4409,7 @@
         "id": "283",
         "extension": "base",
         "title": "D100",
-        "pickup": "ItemID: 283",
+        "pickup": "\"reerolllll!\"",
         "effect": "When used, rerolls each item you currently own into another item room pool item and any pedestal items and pickups in the room.\nHas the combined uses of the D4, D6 and D20.",
         "unlock": "Unlock this item by beating Boss Rush with The Lost.",
         "type": [
@@ -5155,7 +5155,7 @@
         "id": "329",
         "extension": "base",
         "title": "The Ludovico Technique",
-        "pickup": "ItemID: 329",
+        "pickup": "\"controlled tears\"",
         "effect": "You no longer shoot tears and instead now control a single large tear with the arrow keys.\nItems which increase your tears stat will cause the tear to deal damage at a faster rate.\nItems which increase your shot speed cause the tear to travel faster across the screen.\nLudo and Brimstone create a large controllable red ring of death that does massive damage to anything in its path.\nTaking this with Mom's Knife allows you to remote control the knife around the room, dealing huge damage.",
         "unlock": null,
         "type": [
@@ -5187,7 +5187,7 @@
         "id": "331",
         "extension": "base",
         "title": "GodHead",
-        "pickup": "ItemID: 331",
+        "pickup": "\"god tears\"",
         "effect": "Isaac's tears become homing and have a large aura around them, which will deal damage to anything inside its radius.\n+0.5 Damage Up.\n+1.2 Range Up.\n-0.3 Tears Down.\n-0.3 Shot Speed Down\n+0.8 Tear Height.",
         "unlock": "Unlock this item by beating all bosses and completing all post-it note marks in hard mode with The Lost character.",
         "type": [
