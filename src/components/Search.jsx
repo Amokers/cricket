@@ -14,7 +14,7 @@ function Search({ onSearch }) {
       type="text"
       value={searchQuery}
       onChange={handleSearchChange}
-      placeholder="Rechercher un item..."
+      placeholder="Rechercher un objet..."
       className="search_bar"
     />
   );
