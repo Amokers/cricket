@@ -1,18 +1,23 @@
-import React, { useState } from 'react';
+// Search.jsx
+import React, { useState, useEffect } from 'react';
 
-function Search({ onSearch }) {
-  const [searchQuery, setSearchQuery] = useState('');
+function Search({ searchQuery, onSearch }) {
+  const [localSearchQuery, setLocalSearchQuery] = useState('');
+
+  useEffect(() => {
+    setLocalSearchQuery(searchQuery);
+  }, [searchQuery]);
 
   const handleSearchChange = (event) => {
     const query = event.target.value;
-    setSearchQuery(query);
-    onSearch(query); // Appel de la fonction onSearch avec la valeur de recherche mise à jour
+    setLocalSearchQuery(query);
+    onSearch(query);
   };
 
   return (
     <input
       type="text"
-      value={searchQuery}
+      value={localSearchQuery}
       onChange={handleSearchChange}
       placeholder="Rechercher un objet..."
       className="search_bar"
